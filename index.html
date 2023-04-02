@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Button - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".widget input[type=submit], .widget a, .widget button" ).button();
+    $( "button, input, a" ).on( "click", function( event ) {
+      event.preventDefault();
+    } );
+  } );
+  </script>
+</head>
+<body>
+<div class="widget">
+  <h1>Warriors History</h1>
+  <button>Home</button>
+ 
+  <input type="submit" value="Previous Owners">
+ <button>Previous Coaches</button>
+	<button>Previous Players</button>
+	<button>Coaches</button>
+	<button>Owners</button>
+	<button>Players</button>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Menu - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#menu" ).menu();
+  } );
+  </script>
+  <style>
+  .ui-menu { width: 150px; }
+  </style>
+<body>
+ 
+<ul id="menu">
+  
+  <li><div>Stephen Curry</div></li>
+  <li><div>Gary Payton II</div></li>
+  <li><div>Andre Iguodala</div>
+    <ul>
+      <li class="ui-state-disabled"><div>4 time champion</div></li>  </ul>
+      <li><div>Kevin Durant</div></li>
+      <li><div>Baron Daviss</div></li>
+   
+  </li>
+  <li><div>Draymond Green</div></li>
+  <li><div>Klay Thompson</div>
+ <li>Tim Hardaway</li>
+  </li>
+	<li>Monta Ellis</li>
+  <li class="ui-state-disabled"><div>Wilt Chamberlain</div></li>
+</ul>
+	<b2>"Strength In Numbers"</b2>
+	<h1> Thanks For Visiting!!</h1>
+	</body>
+	</div>
+ 
+ 
+</body>
+</html>
